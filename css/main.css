@@ -1,0 +1,277 @@
+/********************************************************/
+/***** MAIN: MAIN STYLING [NOT FLEXBOX OR COLORS] *****/
+/******************************************************/
+
+/***** NATIVE OBJECTS *****/
+
+body {
+	min-height: 100vh;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+} /*ALSO A FLEXBOX*/
+
+h1 , h2 , h3 , h4 , p {
+	padding: 0.25rem 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+} 
+
+ul li {
+	list-style-type: none;
+}
+
+/***** HEADER *****/
+
+.header_wrapper {
+	height: 100%;
+	padding: .45rem;
+}
+
+.logo {
+	height: auto; 
+	width: auto; 
+	max-width: 3rem; 
+	max-height: 3rem;
+}
+
+.name_professional_title_container {
+	height: auto; 
+	width: auto; 
+	padding: 0 .25rem .25rem .25rem;
+	margin-right: auto; 
+}
+
+.name, .professional_title {
+	margin: 0;
+}
+
+.professional_title {
+	display: none;
+}
+
+.website_main_title, .website_main_subtitle_1 , .website_main_subtitle_2 {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+
+.website_main_subtitle_2 li {
+   display: inline;
+}
+
+
+
+/***** FOOTER *****/
+
+.footer_container {
+	padding: .5rem .25rem 0 .25rem;
+}
+
+.footer_menu ul {
+	text-align: center;
+	padding: .25rem 0;
+	margin: 0;
+}
+
+.footer_menu ul li {
+	display: inline;
+	padding: .25rem 0;
+}
+
+.main_copyright_name {
+	padding-top: .5rem;
+}
+
+/********************/
+/***** FLEXBOX *****/
+/******************/
+
+body {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 100%;
+	justify-content: space-around;
+} 
+
+/***** HEADER FLEXBOX*****/
+
+.header_container_1 {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+	flex: 1;
+} 
+
+/*(Dependent IDs & Classes https://www.berriart.com/sidr/*/
+/*Site Customization */
+/*START*/
+
+#navigation , .nav , .nav ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: flex-start;
+	align-self: flex-start;
+}	
+
+.nav ul li a {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+/*(Dependent IDs & Classes https://www.berriart.com/sidr/*/
+/*Site Customization */
+/*END*/
+
+/***** FLEXBOX-FOOTER *****/
+
+.footer_container,  { 
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	align-content: center;
+	justify-content: space-around;
+}
+
+.footer_menu ul {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	align-content: center;
+	justify-content: space-around;
+	align-self: center;
+}
+
+/****************************/
+/***** INDEX: COLORING *****/
+/**************************/
+
+/***** HEADER COLORS *****/
+
+header {
+
+background: #4776E6; /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #4776E6 , #8E54E9); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #4776E6 , #8E54E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      
+}
+
+.blend {
+	width: 100%;
+	height: 1vh;
+
+	background: #4776E6; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #fbfafa , #4776E6); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #fbfafa , #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      
+}
+
+/***** BODY COLORS *****/
+
+body {
+
+	background: #fbfafa; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #fbfafa , #FFFFFF);  Chrome 10-25, Safari 5.1-6 
+	background: linear-gradient(to bottom, #fbfafa , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+
+/***** FOOTER COLORS *****/
+
+.footer_container {
+	background-color: lightgrey;
+}
+
+/***** MOBILE sidr MENU *****/
+
+#mobile-header {
+    display: none;
+}
+
+/***** MEDIA QUERIES *****/
+
+@media only screen and (max-width: 750px){
+    #mobile-header {
+        display: block;
+    }
+    .nav {
+    	display: none;
+    }
+	#responsive-menu-button {
+		font-size: 2rem;
+	}
+}
+
+@media only screen and (min-width: 400px) {
+	.professional_title {
+		display: flex;
+	} /*Displays Top Left on Header: "Front-end Designer & Developer" (under "Michael Delgado" and to the right of logo/pic)*/
+	
+	#responsive-menu-button {
+		font-size: 3rem;
+	} /*Enlarges Mobile Menu Symbol (Hamburger Lines)*/
+}
+
+@media only screen and (min-width: 751px) {
+	.nav ul li a {
+	padding: .25rem;
+	margin: 0 0 0 .25rem;
+	} /*Adds spacing around nav menu options (ex. "About", "Hire Mike")*/
+}
+
+@media only screen and (min-width: 794px) {
+	.nav ul li a {
+	padding: .5rem;
+	margin: 0 0 0 .5rem;
+	} /*Increases spacing around nav menu options (ex. "About", "Hire Mike")*/
+
+}
+
+@media only screen and (min-width: 920px){
+	
+	.nav ul li a {
+	padding: 1rem;
+	margin: 0 0 0 1rem;
+	font-size: 1.05rem;
+	} /*Increases spacing around nav menu options (ex. "About", "Hire Mike")*/
+	.website_main_title {
+	padding: 1.5rem 0 0 0; 
+	} /*Website Title:"INTREPID CREATIVITY DESIGN & DEVELOPMENT"*/
+	.website_main_subtitle_1 {
+		padding: .5rem;
+	}
+	.website_main_subtitle_2 {
+	padding: .25rem 0 2rem 0;
+	} /*Website Subtitle: "HTML CSS JavaScript PHP"*/
+	
+}
+
+@media only screen and (min-width: 1100px) {
+	.nav ul li a {
+	padding: 1rem 2rem;
+	} /*Increases spacing around nav menu options (ex. "About", "Hire Mike")*/
+}
+
+@media only screen and (min-width: 1500px) {
+	.nav ul li a {
+		font-size: 1.2rem;
+	}
+}
+
+
+

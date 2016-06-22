@@ -1,0 +1,126 @@
+/********************************************************/
+/***** ABOUT: MAIN STYLING [NOT FLEXBOX OR COLORS] *****/
+/******************************************************/
+
+/***** HEADER *****/
+
+
+/***** WRAPPER *****/
+
+#about_main_title {
+	padding: .5rem 2.5rem 1rem 2.5rem;
+}
+
+#about_subtitle , #about_presentation_area_p_1 {
+	padding: .5rem 1rem 1rem 1rem;
+}
+
+#about_presentation_area_p_2 {
+	padding: .5rem 1rem 3rem 1rem;
+}
+
+/***** WRAPPER FLEXBOX *****/
+
+#about_wrapper_container {
+	flex:1;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	max-width: 100%;
+	align-content: flex-start;
+}
+
+#about_presentation_area {
+	flex:1;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	max-width: 100%;
+	align-content: flex-start;
+}
+
+#about_main_title {
+	text-align: center;
+}
+
+#about_main_title , #about_subtitle {
+	flex-basis: 100%;
+}
+
+
+#about_img {
+	height: auto; 
+	width: auto; 
+	max-width: 7rem; 
+	max-height: 7rem;
+	float: left;
+	margin: 0px 3px 0 0;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	-webkit-shape-outside: circle();
+	shape-outside: circle();
+} /*https://www.html5andbeyond.com/wrap-text-around-a-rounded-image-using-css-shape-outline/*/
+
+
+/***** COLORS *****/
+
+@media only screen and (min-width: 400px) {
+	#about_presentation_area_p_1 {
+	padding: .25rem 3rem 1rem 3rem;
+	}
+	#about_presentation_area_p_2 {
+	padding: .25rem 3rem 3rem 3rem;
+	}
+}
+
+@media only screen and (min-width: 585px) {
+	#about_presentation_area_p_1 {
+	padding: .25rem 4rem 1rem 4rem;
+	}
+	#about_presentation_area_p_2 {
+	padding: .25rem 4rem 3rem 4rem;
+	}
+}
+
+@media only screen and (min-width: 700px){
+	#about_presentation_area_p_1 {
+		flex:1.25;
+		padding: .25rem .75rem 4rem 4rem;
+	}
+	#about_presentation_area_p_2 {
+		flex:1;
+		padding: .25rem 4rem 4rem .75rem;
+	}
+}
+
+@media only screen and (min-width: 850px){
+	#about_presentation_area_p_1 {
+		padding: .25rem .75rem 4rem 6rem;
+	}
+	#about_presentation_area_p_2 {
+		padding: .25rem 6rem 4rem .75rem;
+	}
+}
+
+@media only screen and (min-width: 1075px){
+	#about_presentation_area_p_1 {
+		padding: 1rem 1rem 5rem 8rem;
+	}
+	#about_presentation_area_p_2 {
+		padding: 1rem 8rem 5rem 1rem;
+	}
+}
+
+@media only screen and (min-width: 1250px) {
+	#about_presentation_area_p_1 {
+		padding: 1rem 2rem 5rem 8rem;
+	}
+	#about_presentation_area_p_2 {
+		padding: 1rem 8rem 5rem 2rem;
+	}
+}
+
+@media only screen and (min-width: 1350px) {
+	
+}
