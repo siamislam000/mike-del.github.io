@@ -1,8 +1,15 @@
 "use strict";
 
-$('#responsive-menu-button').sidr({
+$('.responsive-menu-button').sidr({
 	name: 'sidr-main',
-	source: '#navigation',
+	side: 'right', 
+	source: '.navigation',
+	speed: 500, 
+});
+
+$('.responsive-menu-button-news').sidr({
+	name: 'sidr-left',
+	source: '.navigation-news',
 	speed: 500, 
 });
 

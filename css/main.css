@@ -118,7 +118,7 @@ body {
 /*Site Customization */
 /*START*/
 
-#navigation , .nav , .nav ul {
+.navigation , .nav , .nav ul {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -199,20 +199,20 @@ body {
 
 /***** MOBILE sidr MENU *****/
 
-#mobile-header {
+.mobile-header {
     display: none;
 }
 
 /***** MEDIA QUERIES *****/
 
 @media only screen and (max-width: 750px){
-    #mobile-header {
+    .mobile-header {
         display: block;
     }
     .nav {
     	display: none;
     }
-	#responsive-menu-button {
+	.responsive-menu-button {
 		font-size: 2rem;
 	}
 }
@@ -222,7 +222,7 @@ body {
 		display: flex;
 	} /*Displays Top Left on Header: "Front-end Designer & Developer" (under "Michael Delgado" and to the right of logo/pic)*/
 	
-	#responsive-menu-button {
+	.responsive-menu-button {
 		font-size: 3rem;
 	} /*Enlarges Mobile Menu Symbol (Hamburger Lines)*/
 }
