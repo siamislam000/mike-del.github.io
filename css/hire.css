@@ -1,0 +1,40 @@
+#hire_wrapper_container  {
+	flex: 1;
+	margin:2% 1%;
+}
+
+#hire_p_img_container {
+	display: flex;
+	flex: 1;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+#hire_img {
+	margin: 5%;
+}
+
+#contact_button_and_caption {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	margin: auto;
+	padding-bottom: 5%;
+}
+
+#contact_button_and_caption a {
+	margin-top: auto;
+	font-size: .75rem;
+}
+
+@media only screen and (min-width: 805px) {
+	#hire_p_img_container {
+		justify-content: space-around;
+	}
+	.hire_p {
+		width: 50%;
+	}
+	#hire_img {
+		margin: 0;
+	}
+}
