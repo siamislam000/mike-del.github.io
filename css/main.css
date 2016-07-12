@@ -10,8 +10,9 @@ body {
 	font-weight: 400;
 } /*ALSO A FLEXBOX*/
 
+
 h1 , h2 , h3 , h4 , p {
-	padding: 0.25rem 0;
+	padding: .5% 0;
 	margin: 0;
 }
 
@@ -205,7 +206,7 @@ body {
 
 /***** MEDIA QUERIES *****/
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 925px){
     .mobile-header {
         display: block;
     }
@@ -227,12 +228,12 @@ body {
 	} /*Enlarges Mobile Menu Symbol (Hamburger Lines)*/
 }
 
-@media only screen and (min-width: 751px) {
+/*@media only screen and (min-width: 751px) {
 	.nav ul li a {
 	padding: .25rem;
 	margin: 0 0 0 .25rem;
-	} /*Adds spacing around nav menu options (ex. "About", "Hire Mike")*/
-}
+	}*/ /*Adds spacing around nav menu options (ex. "About", "Hire Mike")*/
+/*}*/
 
 @media only screen and (min-width: 794px) {
 	.nav ul li a {
@@ -242,13 +243,8 @@ body {
 
 }
 
-@media only screen and (min-width: 920px){
+@media only screen and (min-width: 1025px){
 	
-	.nav ul li a {
-	padding: 1rem;
-	margin: 0 0 0 1rem;
-	font-size: 1.05rem;
-	} /*Increases spacing around nav menu options (ex. "About", "Hire Mike")*/
 	.website_main_title {
 	padding: 1.5rem 0 0 0; 
 	} /*Website Title:"INTREPID CREATIVITY DESIGN & DEVELOPMENT"*/
@@ -259,12 +255,6 @@ body {
 	padding: .25rem 0 2rem 0;
 	} /*Website Subtitle: "HTML CSS JavaScript PHP"*/
 	
-}
-
-@media only screen and (min-width: 1100px) {
-	.nav ul li a {
-	padding: 1rem 2rem;
-	} /*Increases spacing around nav menu options (ex. "About", "Hire Mike")*/
 }
 
 @media only screen and (min-width: 1500px) {

@@ -1,122 +1,48 @@
-/********************************************************/
-/***** INDEX: MAIN STYLING [NOT FLEXBOX OR COLORS] *****/
-/******************************************************/
-
-/***** WRAPPER *****/
-
-.wrapper_container {
-	padding: .45rem;
-}
-
-.intro_container {
-	padding: 1rem;
-}
-
-#index_intro_p p:first-child {
-    padding: .25rem 0 .50rem 0;
-}
-
-.wrapper_title {
-	padding: 1rem 0;
-}
-
-.wrapper_title h1 {
-	text-align: center;
-}
-
-.presentation_area {
-	padding: 1rem;
-}
-
-.presentation_area_h2 {
-	margin-top: 0;
-}
-
-.presentation_area_example_img {
-	padding-top: .5rem;
-}
-
-.example_img_link {
-	height: auto; 
-	width: auto; 
-	max-width: 10rem; 
-	max-height: 10rem;
-}
-
-/***** WRAPPER FLEXBOX *****/
-
-.wrapper_container {
+.wrapper-container  {
 	flex: 1;
+	margin: 4% 3% 3% 3%;
 }
 
-.wrapper_title, .index_skill_examples_container, .prestentation_area { 
+.presentation-container , 
+.presentation-container-title {
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	width: 100%;
-	align-items: center;
-	justify-content: space-around;
-}
-
-.wrapper_title h1 {
 	flex: 1;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 0 0 15% 0;
+	height: 100%;
 }
 
-.prestentation_area { 
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	width: 100%;
-	align-items: stretch;
-	justify-content: space-around;
+.presentation-img {
+	margin: 5%;
 }
 
-.presentation_area_h2_p { 
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	align-items: stretch;
-	justify-content: space-around;
-	flex: 1 50%;
-}
-
-.presentation_area_example_img {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-around;
-	flex: 1 50%;
-}
-
-@media only screen and (min-width: 915px){
-	
-	
-	.intro_container {
-		padding: 2rem 5rem 0 5rem;
+#index_presentation_intro_content_pt1 {
+		margin: 3% 0;
 	}
-	.intro_container h3 {
-		padding: 0 1rem;
-		margin: 0;
+
+@media only screen and (min-width: 805px) {
+	#index_presentation_intro_container {
+		margin: 0 10% 10% 10%;
 	}
-	#index_intro_p p , #index_intro_p p:first-child {
-		padding: 1rem;
-		margin: 0;
+	.presentation-container-title {
+		margin: 0 0 5% 0;
+	}
+	.presentation-container  {
+		justify-content:space-around;
+		margin: 0 0 10% 0;
+	}
+	#index_presentation_intro_content_pt1 , #index_presentation_intro_content_pt2 {
 		flex: 1;
+		margin: 0 .5%;
 	}
-
-	#index_intro_p {
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: row;
-		width: 100%;
-		justify-content: space-between;
+	.presentation-content-pt1 ,
+	.presentation-content-pt2 {
+		width: 50%;
+		margin: 0 1%;
 	}
-	
-}
-
-@media only screen and (min-width: 1150px) {
-	.intro_container {
-		padding: 3rem 10rem 0 10rem;
+	.presentation-img {
+		margin: 0;
+		width: initial;
 	}
 }
