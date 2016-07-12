@@ -3,6 +3,7 @@
 	margin: 4% 3% 3% 3%;
 }
 
+.presentation-intro-container ,
 .presentation-container , 
 .presentation-container-title {
 	display: flex;
@@ -13,28 +14,26 @@
 	height: 100%;
 }
 
-.presentation-img {
-	margin: 5%;
-}
-
-#index_presentation_intro_content_pt1 {
+.presentation-intro-content-pt1 {
 		margin: 3% 0;
 	}
 
 @media only screen and (min-width: 805px) {
-	#index_presentation_intro_container {
+	.presentation-intro-container {
+		justify-content: space-around;
 		margin: 0 10% 10% 10%;
 	}
 	.presentation-container-title {
 		margin: 0 0 5% 0;
 	}
 	.presentation-container  {
-		justify-content:space-around;
-		margin: 0 0 10% 0;
+		justify-content: space-around;
+		margin: 0 5% 10% 5%;
 	}
-	#index_presentation_intro_content_pt1 , #index_presentation_intro_content_pt2 {
+	.presentation-intro-content-pt1 , 
+	.presentation-intro-content-pt2 {
 		flex: 1;
-		margin: 0 .5%;
+		margin: 0 3%;
 	}
 	.presentation-content-pt1 ,
 	.presentation-content-pt2 {
