@@ -1,37 +1,8 @@
-/********************************************************/
-/***** ABOUT: MAIN STYLING [NOT FLEXBOX OR COLORS] *****/
-/******************************************************/
-
-/***** HEADER *****/
-
-
-/***** WRAPPER *****/
 
 .portfolio_img_2 , 
 .portfolio_img_3 ,
 .portfolio_img_4 {
 	display: none;
-}
-
-#portfolio_wrapper_container {
-	flex:1;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	max-width: 100%;
-}
-
-#portfolio_title ,
-#portfolio_subtitle {
-	flex: 1 100%;
-}
-
-#portfolio_title {
-	margin: 0 2%;
-}
-
-#portfolio_subtitle {
-	margin: 0 5%;
 }
 
 .portfolio_img_1 {
@@ -44,14 +15,6 @@
 .snippet_title , .snippet_p {
 	display: none;
 }
-
-.portfolio_caption {
-	padding: .25rem 0 3rem 0;
-}
-
-/***** COLORS *****/
-
-/***** MEDIA QUERIES *****/
 
 @media only screen and (min-width: 420px){
 	.portfolio_img_1 {
@@ -84,14 +47,28 @@
 		display: flex;
 		width: 620px;
 		max-width: 100%;
-	    max-height: auto;
-	    margin: 0 auto 0 auto;
+    max-height: auto;
+    margin: 0 auto 0 auto;
 
 	}
 }
 
+@media only screen and (min-width: 805px) {
+	.snippet-presentation-content-pt1 ,
+	.snippet-presentation-content-pt2 {
+		margin: .25%;
+	}
+	
+}
 
-@media only screen and (min-width: 950px){
+@media only screen and (min-width: 1155px){
+	.snippet-container {
+		margin: 1% 15% 2% 15%;
+	}
+	/*.snippet-presentation-content-pt1 ,
+	.snippet-presentation-content-pt2 {
+		width: auto;
+	}*/
 	.portfolio_img_3 {
 		order:1;
 	} 
@@ -101,44 +78,15 @@
 	.snippet {
 		order:2;
 	}
-	.portfolio_img_3 , .portfolio_caption {
-		margin: 0 0 0 15%;
-	}
-
-	.snippet{
+	
+	.snippet ,
+	.snippet_title ,
+	.snippet_p {
 		display: flex;
 		flex:1;
 		flex-direction: column;
 		flex-wrap: wrap;
 		max-width: 100%;
 		align-self: flex-start;
-		margin-right: 5%;
-		padding-left: .25rem;
-	}
-
-	.snippet_title  {
-		display: flex;
-		flex: 1;
-		max-width: 100%;
-		align-self: flex-start;
-		
-	}
-	.snippet_p {
-		display: flex;
-		flex: 1;
-		max-width: 100%;
-		align-self: flex-start;
 	}
 }	
-
-@media only screen and (min-width: 1050px) {
-	.snippet{
-		margin-right: 10%;
-	}
-}
-
-@media only screen and (min-width: 1150px) {
-	.snippet{
-		margin-right: 15%;
-	}
-}

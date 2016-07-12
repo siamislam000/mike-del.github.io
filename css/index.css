@@ -1,6 +1,6 @@
 .wrapper-container  {
 	flex: 1;
-	margin: 4% 3% 3% 3%;
+	margin: 3%;
 }
 
 .presentation-intro-container ,
@@ -27,7 +27,7 @@
 		margin: 0 0 5% 0;
 	}
 	.presentation-container  {
-		justify-content: space-around;
+		justify-content: center;
 		margin: 0 5% 10% 5%;
 	}
 	.presentation-intro-content-pt1 , 

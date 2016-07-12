@@ -1,0 +1,30 @@
+START 7/12/16
+::Portfolio_DRY_UPGRADE
+
+x add right margin to snippit
+
+x remove additional padding inherited from DRY css (this will prevent the image from shrinking down at 805px)
+
+x decrease space between img & snippit
+
+x narrow presentation section
+
+x decrease top marging of profile and about (global)
+
+x create snippit presentation class
+
+
+Long-term:
+set max-width for everything
+
+
+/*************************/
+
+Change: 
+
+added index css to about, profilee. 
+
+min about css to img
+
+::Portfolio_DRY_UPGRADE 
+END 7/12/16
