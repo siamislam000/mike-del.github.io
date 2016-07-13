@@ -1,20 +1,19 @@
 START 7/12/16
-::Portfolio_DRY_UPGRADE
+::testimonials_DRY_UPGRADE
 
-x add right margin to snippit
+x copy over from portfolio (html and css) to testimonials
 
-x remove additional padding inherited from DRY css (this will prevent the image from shrinking down at 805px)
+x create two seperat css file: presentaton and snippet
 
-x decrease space between img & snippit
+x clear redundences in css (most pages css left blank)
 
-x narrow presentation section
+x Seperate main.css: header/body/footer/media q
 
-x decrease top marging of profile and about (global)
-
-x create snippit presentation class
-
+-declined-Add pres/snip css to main and then erase them. 
+ ->This would add unnessisary css to pages
 
 Long-term:
+Header DRY UPDATE
 set max-width for everything
 
 
@@ -22,9 +21,6 @@ set max-width for everything
 
 Change: 
 
-added index css to about, profilee. 
+Seperate main.css: header/body/footer/media q
 
-min about css to img
-
-::Portfolio_DRY_UPGRADE 
-END 7/12/16
+::testimonials_DRY_UPGRADE
