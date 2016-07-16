@@ -1,51 +1,21 @@
 START 7/12/16
-::articles_DRY_UPGRADE
+::hire contact.button js activation START
 
-x clone html & css
+html:
+-add class to button
+js:
+-use class for .click, "mailto", and change text. 
 
-x Test preset css or create new one
-	-shrink down side meue to organic width
-		-everything seems to be margin-right auto??
-			-maybe positioning in flex-box
-		-Try: div for menu, articles and weather-box	
-		(***This worked***)
-
-
-asses and corect media query problem regarding:
-	-mobile 
-		x - ~877px: need to decrease or delete the margin 
-			around
-			.articles-articles & .local_weather_box
-				-// or keep it to use instead of creating a 
-				new div for the mobile menu symbol
-		-Solution: left it alone
-		x - Once the .local_weather_box goes below the articles: 		
-		either readjust margin, display:none, or move 			mobile menu to it's own div about the main wrapper. 
-
-		x - Adjust articles img
-			-remove or adjust the width and height of .articles-articles 
-				-This will in increase the overall size. this 
-				inclearse the size of the picture (if it does not adjust he percentage in .article-img). It will also increase the lenth of the article.
-
-
-
-
-
-
-
+::hire contact.button js activation END 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 Medium-term:
 1. Articles section sidr (adjust css in conjunction with js)
 	a. js= close sidr menu when article section is clicked.
+2. Contact email button
+	a. add a subject line
 
 
 Long-term:
 Header DRY UPDATE
 set max-width for everything
-
-
-/*************************/
-
-Change: 
-
-
-::articles_DRY_UPGRADE
+////////////////////////////////////////////////////////////////
