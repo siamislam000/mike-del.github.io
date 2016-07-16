@@ -6,9 +6,12 @@
       <link rel="stylesheet" type="text/css" href="css/normalize.css">
       <link href='https://fonts.googleapis.com/css?family=Ubuntu:700,500,400' rel='stylesheet' type='text/css'>
 	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.sidr/2.2.1/stylesheets/jquery.sidr.dark.min.css"> <!--(Dependent for mobile navigation https://www.berriart.com/sidr/-->
+
 	  <link rel="stylesheet" type="text/css" href="css/main.css">
+	  <link rel="stylesheet" type="text/css" href="css/presentation_container.css">
 	  <link rel="stylesheet" type="text/css" href="css/articles.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 		
 		<body id="articles_body">
@@ -87,106 +90,107 @@ HEADER PART 2: WEBSITE TITLE/SUBTITLE
 			
 			<div class="blend"></div>
 
-			<div id="articles_wrapper">
+			<div class="articles-page-title">
+				<h1>News</h1>
+			</div> <!-- class="articles-title" -->
 
-				<h1 id="news_title">News</h1>
 
-				<div class="mobile-header"><!--(Dependent ID https://www.berriart.com/sidr/-->
-					    <a class="responsive-menu-button-news" href="#sidr-left">☰</a><!--(Dependent ID & href https://www.berriart.com/sidr/-->
-				</div>
+			<div id="articles_wrapper_container" class="wrapper-container articles-wrapper">
+				
+				
+				
+				<div class="articles-menu">
+					<div class="mobile-header articles-mobile-header"><!--(Dependent ID https://www.berriart.com/sidr/-->
+						    <a class="responsive-menu-button-news" href="#sidr-left">☰</a><!--(Dependent ID & href https://www.berriart.com/sidr/-->
+					</div>
+					<div class="navigation-news">
+						<nav>
+							<ul class="articles-menu">
+								<li><a href="#articles_body">Top</a></li>
+								<li><a href="#breaking_news">Breaking News</a></li>
+								<li><a>section_2</a></li>
+								<li><a>section_3</a></li>		
+							</ul><!-- id="articles_menu" -->
+						</nav>
+					</div> <!-- class="navigation-news" -->
+				</div> <!-- class="articles-menu" -->
 
-				<div class="navigation-news">
+				<div class="articles-articles">
 
-					<nav>
+					<h2 id="breaking_news" class="articles-section-title">Breaking News</h2>
 
-						<ul id="articles_menu">
+					<div id="articles_breakingNews_presentation_container1" class="presentation-container articles-container">
+						<h3 class="articles-article-title">Article Title 1</h3>
+						<p id="articles_breakingNews_presentation_container1_content_pt1_1" class="presentation-intro-content-pt1 articles-content articles-preview_1"> <img src="img/logo.jpg" alt="Website logo / Michael Delgado's picture" id="breakingNews_article_container1_img_1_1" class="article-img"> BIO: The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.... </p>
+						<p id="articles_breakingNews_presentation_container1_content_pt1_2" class="presentation-intro-content-pt1 articles-content articles-preview_2"> <img src="img/logo.jpg" alt="Website logo / Michael Delgado's picture" id="breakingNews_article_container1_img_1_2" class="article-img"> BIO: The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over... </p>
+					</div> <!-- class="presentation-container articles-container" -->
 
-							<li>section_1</li>
-							<li>section_2</li>
-							<li>section_3</li>
-							<li>section_4</li>
-							<li>section_5</li>
-							<li>section_6</li>
-							<li>section_7</li>
-							<li>section_8</li>
-							<li>section_9</li>
-							<li>section_10</li>
-							
-						</ul><!-- id="articles_menu" -->
+					<div id="articles_breakingNews_presentation_container_2" class="presentation-container articles-container">
+						<h3 class="articles-article-title">Article Title 1</h3>
+						<p id="articles_breakingNews_presentation_content_pt1_1" class="presentation-intro-content-pt1 articles-content articles-preview_1"> <img src="img/logo.jpg" alt="Website logo / Michael Delgado's picture" id="breakingNews_article_img_1_2" class="article-img"> BIO: The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.... </p>
+						<p id="articles_breakingNews_presentation_content_pt1_2" class="presentation-intro-content-pt1 articles-content articles-preview_2"> <img src="img/logo.jpg" alt="Website logo / Michael Delgado's picture" id="breakingNews_article_img_1_2" class="article-img"> BIO: The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over... </p>
+					</div> <!-- class="presentation-container articles-container" -->
 
-					</nav>
+					<div id="articles_breakingNews_presentation_container_1" class="presentation-container articles-container">
+						<h3 class="articles-article-title">Article Title 1</h3>
+						<p id="articles_breakingNews_presentation_content_pt1_1" class="presentation-intro-content-pt1 articles-content articles-preview_1"> <img src="img/logo.jpg" alt="Website logo / Michael Delgado's picture" id="breakingNews_article_img_1_1" class="article-img"> BIO: The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.... </p>
+						<p id="articles_breakingNews_presentation_content_pt1_2" class="presentation-intro-content-pt1 articles-content articles-preview_2"> <img src="img/logo.jpg" alt="Website logo / Michael Delgado's picture" id="breakingNews_article_img_1_2" class="article-img"> BIO: The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over... </p>
+					</div> <!-- class="presentation-container articles-container" -->
 
-				</div>
 
-				<div id="complete_news_section">
 
-					<div id="breaking_news_section">
+					<h2 id="tech_news" class="articles-section-title">Tech News</h2>
+					<div id="articles_techNews_presentation_container_1" class="presentation-container articles-container">
+						<h3 class="articles-article-title">Article Title 1</h3>
+						<p id="articles_techNews_presentation_content_pt1_1" class="presentation-intro-content-pt1 articles-content articles-preview_1"> <img src="img/logo.jpg" alt="Website logo / Michael Delgado's picture" id="techNews_article_img_1_1" class="article-img"> BIO: The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.... </p>
+						<p id="articles_techNews_presentation_content_pt1_2" class="presentation-intro-content-pt1 articles-content articles-preview_2"> <img src="img/logo.jpg" alt="Website logo / Michael Delgado's picture" id="techNews_article_img_1_2" class="article-img"> BIO: The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over... </p>
+					</div> <!-- class="presentation-container articles-container" -->
 
-						<h2 id="breaking_news_title" class="news_title">Breaking News</h2>
+					<div id="articles_breakingNews_presentation_container_1" class="presentation-container articles-container">
+						<h3 class="articles-article-title">Article Title 1</h3>
+						<p id="articles_breakingNews_presentation_content_pt1_1" class="presentation-intro-content-pt1 articles-content articles-preview_1"> <img src="img/logo.jpg" alt="Website logo / Michael Delgado's picture" id="breakingNews_article_img_1" class="article-img"> BIO: The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.... </p>
+						<p id="articles_breakingNews_presentation_content_pt1_1" class="presentation-intro-content-pt1 articles-content articles-preview_2"> <img src="img/logo.jpg" alt="Website logo / Michael Delgado's picture" id="breakingNews_article_img_1" class="article-img"> BIO: The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over... </p>
+					</div> <!-- class="presentation-container articles-container" -->
 
-							<h3 class="news_article_title_1">Breaking News Article Title 1</h3>
-							<p class="news_article_p_1">Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph.</p>
+					<div id="articles_breakingNews_presentation_container_1" class="presentation-container articles-container">
+						<h3 class="articles-article-title">Article Title 1</h3>
+						<p id="articles_breakingNews_presentation_content_pt1_1" class="presentation-intro-content-pt1 articles-content articles-preview_1"> <img src="img/logo.jpg" alt="Website logo / Michael Delgado's picture" id="breakingNews_article_img_1" class="article-img"> BIO: The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.... </p>
+						<p id="articles_breakingNews_presentation_content_pt1_1" class="presentation-intro-content-pt1 articles-content articles-preview_2"> <img src="img/logo.jpg" alt="Website logo / Michael Delgado's picture" id="breakingNews_article_img_1" class="article-img"> BIO: The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over. Research based &amp; solution focused designs, driven by the soul of your company, are one step away.The wait is finally over... </p>
+					</div> <!-- class="presentation-container articles-container" -->
 
-							<h3 class="news_article_title_2">Breaking News Article Title 2</h3>
-							<p class="news_article_p_2">Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph.</p>
+				</div> <!-- class="articles-articles" -->
 
-							<h3 class="news_article_title_3">Breaking News Article Title 3</h3>
-							<p class="news_article_p_3">Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph.</p>
+				
 
-					</div><!-- id="breaking_news_section" -->
+				
 
-					<div id="news_section1" class="news_section">
 
-						<h2 class="news_title">News Section 1</h2>
 
-							<h3 class="news_article_title_1">News Section1 Article Title 1</h3>
-							<p class="news_article_p_1">Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph.</p>
 
-							<h3 class="news_article_title_2">News Section1 Article Title 2</h3>
-							<p class="news_article_p_2"">Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph.</p>
 
-							<h3 class="news_article_title_3">News Section1 Article Title 3</h3>
-							<p class="news_article_p_3">Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph.</p>
 
-					</div><!-- id="news_section1" -->
-					<div id="news_section2" class="news_section">
 
-						<h2 id="news_title">News Section 2</h2>
 
-							<h3 class="news_article_title_1">News Section2 Article Title 1</h3>
-							<p class="news_article_p_1">Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph.</p>
 
-							<h3 class="news_article_title_2">News Section2 Article Title 2</h3>
-							<p class="news_article_p_2"">Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph.</p>
 
-							<h3 class="news_article_title_3">News Section2 Article Title 3</h3>
-							<p class="news_article_p_3">Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph.</p>
 
-					</div><!-- id="news_section2" -->
+				<div class="local_weather_box">
+					<img class="local_weather_box_img_1" src="https://placeimg.com/252/104/any" alt="Your local weather forcast." >
+					<img class="local_weather_box_img_2" src="https://placeimg.com/315/130/any" alt="Your local weather forcast." >
+					
+					
+				</div><!-- id="local_weather_box" -->
 
-					<div id="news_section3" class="news_section">
 
-						<h2 id="news_title">News Section 3</h2>
 
-							<h3 class="news_article_title_1">News Section3 Article Title 1</h3>
-							<p class="news_article_p_1">Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph.</p>
 
-							<h3 class="news_article_title_2">News Section3 Article Title 2</h3>
-							<p class="news_article_p_2"">Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph.</p>
 
-							<h3 class="news_article_title_3">News Section3 Article Title 3</h3>
-							<p class="news_article_p_3">Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph. Breaking news paragraph.</p>
+			</div> <!-- id="articles_wrapper_container" -->
 
-					</div><!-- id="news_section3" -->
 
-				</div><!-- id="complete_news_section" -->
 
-					<div id="local_weather_box">
-						<img id="local_weather_box_img" src="https://placeimg.com/315/130/any" alt="Your local weather forcast." >
-						
-					</div><!-- id="local_weather_box" -->
 
-			</div> <!-- id="articles_wrapper" -->
+
 
 			<footer id="articles_footer" class="footer_container">
 				<span id="articles_footer_menu" class="footer_menu">
@@ -198,7 +202,7 @@ HEADER PART 2: WEBSITE TITLE/SUBTITLE
 						<li>HIRE MIKE</li>	 
 					</ul>
 				</span>
-				<p id="articles_copyright_name" class="main_copyright_name name">&copy; 2016 Michael Delgado</p>
+				<p id="articles_copyright_name" class="main_copyright_name name"> &copy; 2016 Michael Delgado</p>
 				
 				<!--**********Code Comment: Below are two example templets from "my site" (hosted in Treehouse) that allow you to add social media icons and links to a social media profile. The icon images can be found in the project in treehouse. **********
 				<a href="https://twitter.com/worldbankz">
@@ -215,40 +219,3 @@ HEADER PART 2: WEBSITE TITLE/SUBTITLE
 		</body>
 		
 	</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

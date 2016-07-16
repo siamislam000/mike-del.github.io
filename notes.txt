@@ -1,16 +1,42 @@
 START 7/12/16
-::testimonials_DRY_UPGRADE
+::articles_DRY_UPGRADE
 
-x copy over from portfolio (html and css) to testimonials
+x clone html & css
 
-x create two seperat css file: presentaton and snippet
+x Test preset css or create new one
+	-shrink down side meue to organic width
+		-everything seems to be margin-right auto??
+			-maybe positioning in flex-box
+		-Try: div for menu, articles and weather-box	
+		(***This worked***)
 
-x clear redundences in css (most pages css left blank)
 
-x Seperate main.css: header/body/footer/media q
+asses and corect media query problem regarding:
+	-mobile 
+		x - ~877px: need to decrease or delete the margin 
+			around
+			.articles-articles & .local_weather_box
+				-// or keep it to use instead of creating a 
+				new div for the mobile menu symbol
+		-Solution: left it alone
+		x - Once the .local_weather_box goes below the articles: 		
+		either readjust margin, display:none, or move 			mobile menu to it's own div about the main wrapper. 
 
--declined-Add pres/snip css to main and then erase them. 
- ->This would add unnessisary css to pages
+		x - Adjust articles img
+			-remove or adjust the width and height of .articles-articles 
+				-This will in increase the overall size. this 
+				inclearse the size of the picture (if it does not adjust he percentage in .article-img). It will also increase the lenth of the article.
+
+
+
+
+
+
+
+Medium-term:
+1. Articles section sidr (adjust css in conjunction with js)
+	a. js= close sidr menu when article section is clicked.
+
 
 Long-term:
 Header DRY UPDATE
@@ -21,6 +47,5 @@ set max-width for everything
 
 Change: 
 
-Seperate main.css: header/body/footer/media q
 
-::testimonials_DRY_UPGRADE
+::articles_DRY_UPGRADE

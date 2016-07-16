@@ -1,105 +1,115 @@
-
-#articles_wrapper , #news_title ,#complete_news_section {
+.articles-wrapper {
 	display: flex;
-}
-
-#articles_wrapper {
 	flex-flow: row wrap;
-	flex: 1;
-	max-width: 100%;
-}
+	}
 
-#news_title {
-	flex: 1;
-	flex-flow: row wrap;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: center;
-	min-width: 100%;
+.articles-articles {
+	display: flex;
+	flex-flow: column;
+	flex: 2;
+	margin: 0 2.5%;
 }
 
 .navigation-news {
-	padding: .5%;
+	margin: 5% 0 5% 2% ;
 }
 
-#complete_news_section {
-	flex-flow: column;
-	max-width: 50%;
-	margin: auto;
+.responsive-menu-button-news {
+	font-size: 2rem;
 }
 
-#local_weather_box {
-	margin-left: auto;
-	padding: .5% 1% 0 0;
+.articles-page-title {
+	margin: 0 0 0 1.5%;
 }
 
-@media only screen and (max-width: 819px) {
-	#local_weather_box , #local_weather_box_img {
-		margin: auto;
-		padding: 0;
-		align-self: center;
-	}
-}
-
-@media only screen and (max-width: 750px){
-
-    #articles_menu {
-    	display: none;
-    }
-	.responsive-menu-button-news {
-		font-size: 2rem;
-	}
-}
-
-@media only screen and (min-width: 400px) {
-
-	.responsive-menu-button-news {
-		font-size: 3rem;
-	} /*Enlarges Mobile Menu Symbol (Hamburger Lines)*/
-}
-
-@media only screen and (min-width: 751px) {
-
-	#articles_menu ul li a {
-	padding: .25rem;
-	margin: 0 0 0 .25rem;
-	} /*Adds spacing around nav menu options (ex. "About", "Hire Mike")*/
-}
-
-@media only screen and (min-width: 794px) {
-
-	#articles_menu ul li a {
-	padding: .5rem;
-	margin: 0 0 0 .5rem;
-	} /*Increases spacing around nav menu options (ex. "About", "Hire Mike")*/
-
-}
-
-@media only screen and (min-width: 920px){
-	
-	#articles_menu ul li a {
-	padding: 1rem;
-	margin: 0 0 0 1rem;
-	font-size: 1.05rem;
-	} /*Increases spacing around nav menu options (ex. "About", "Hire Mike")*/
+.articles-menu li {
+	padding: 20% 0;
 	
 }
 
-@media only screen and (min-width: 1100px) {
-
-	#articles_menu ul li a {
-	padding: 1rem 2rem;
-	} /*Increases spacing around nav menu options (ex. "About", "Hire Mike")*/
+.articles-section-title ,
+.local_weather_box {
+	display: flex;
+	justify-content: center;
 }
 
-@media only screen and (min-width: 1500px) {
+.articles-article-title {
+	margin: 0 3%;
+	flex-basis: 100%;
+}
 
-	#articles_menu ul li a {
-		font-size: 1.2rem;
+.navigation-news , 
+.articles-preview_2 ,
+.local_weather_box_img_2 {
+	display: none;
+}
+
+.articles-container {
+	margin: 0 0 10% 0;
+}
+
+.article-img {
+	width: 30%;
+	height: 30%;
+	float: left;
+	margin: 0px 1% 0 0;
+} /*https://www.html5andbeyond.com/wrap-text-around-a-rounded-image-using-css-shape-outline/*/
+
+.local_weather_box {
+	flex: 1 100%;
+}
+
+@media only screen and (min-width: 700px) {
+	.articles-wrapper {
+		margin: 1% 3% 3% 3%;
+	}
+	.local_weather_box {
+		margin: 0 0 auto 0;
+		flex: 1;
+	}
+	.articles-section-title {
+		justify-content: flex-start;
+	}
+	.articles-page-title {
+		font-size: 1.5rem;
 	}
 }
 
 
+@media only screen and (max-width: 925px) {
+	.articles-page-title {
+		margin: 0 0 0 3%;
+	}
+	.articles-mobile-header {
+		display: block;
+	}
+}
+@media only screen and (min-width: 926px) {
+	.navigation-news {
+		display: block;
+	}
+	.article-img {
+		width: 25%;
+		height: 25%;
+	}
+}
 
+@media only screen and (min-width: 1000px) {
+	.article-img {
+		width: 20%;
+		height: 20%;
+	}
+}
 
-
+@media only screen and (min-width: 1400px) {
+	.articles-preview_1 {
+		display: none;
+	}
+	.articles-preview_2 {
+		display: flex;
+	}
+	.article-img {
+		width: 15%;
+		height: 15%;
+	}
+}

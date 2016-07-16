@@ -152,7 +152,7 @@ ul li {
 	width: 100%;
 	align-content: center;
 	justify-content: space-around;
-	padding: .5rem .25rem 0 .25rem;
+	/*padding: .5rem .25rem 0 .25rem;*/
 }
 
 .footer_menu ul {
@@ -239,7 +239,7 @@ header {
 	} /*Displays Top Left on Header: "Front-end Designer & Developer" (under "Michael Delgado" and to the right of logo/pic)*/
 	
 	.responsive-menu-button {
-		font-size: 3rem;
+		font-size: 2.5rem;
 	} /*Enlarges Mobile Menu Symbol (Hamburger Lines)*/
 }
 
