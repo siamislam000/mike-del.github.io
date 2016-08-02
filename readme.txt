@@ -1,12 +1,10 @@
-START 7/12/16
-::hire contact.button js activation START
+START 7/24/16
+::weatherTest START
 
-html:
--add class to button
-js:
--use class for .click, "mailto", and change text. 
+- completed weather test and then did a DRY re-write
 
-::hire contact.button js activation END 
+::weatherTest END 
+End 8/2/16
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 Medium-term:
 1. Articles section sidr (adjust css in conjunction with js)
