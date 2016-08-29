@@ -1,10 +1,22 @@
-START 7/24/16
-::weatherTest START
+START 8/2/16
+::WU API css config 
 
-- completed weather test and then did a DRY re-write
+x-Add class or id to elements need for css (js)
 
-::weatherTest END 
-End 8/2/16
+x-Create weather box css (similar to google news page)
+
+-Current: js code that shows the day and night title for the description: on hover. 
+			x-need to add night to its own div
+			- var innerText = this['innerText'];
+				-this contains the day, high and low
+
+
+
+
+
+
+::WU API css config 
+End 8/?/16
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 Medium-term:
 1. Articles section sidr (adjust css in conjunction with js)
