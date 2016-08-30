@@ -11,3 +11,10 @@
 	-webkit-shape-outside: circle();
 	shape-outside: circle();
 } /*https://www.html5andbeyond.com/wrap-text-around-a-rounded-image-using-css-shape-outline/*/
+
+
+#about_presentation_intro_container_pt1 {
+margin: 0 auto;
+}
+
+
