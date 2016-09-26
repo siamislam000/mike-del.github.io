@@ -8,9 +8,9 @@ $('.responsive-menu-button').sidr({
 	speed: 500, 
 });
 
-$('.responsive-menu-button-news').sidr({
+$('.responsive_menu_button_articles').sidr({
 	name: 'sidr-left',
-	source: '.navigation-news',
+	source: '.navigation_articles',
 	speed: 500, 
 });
 

@@ -1,6 +1,15 @@
+#hire_body {
+    background-image: url(../img/hire_Arlene_Schnitzer_Concert_Hall.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left top;
+}
+
 #hire_wrapper_container  {
-	flex: 1;
-	margin: 3%;
+	display: flex;
+    flex: 1;
+	margin: 55px 3% 3% 3%;
 }
 
 #hire_p_img_container {
@@ -10,8 +19,15 @@
 	justify-content: center;
 }
 
-#hire_img {
-	margin: 5%;
+.hire_p {
+    margin: 3% 0;
+}
+
+hire_img {
+    display: flex;
+    min-width: 50%;
+    min-height: 50%;
+    margin-bottom: 3%;
 }
 
 #contact_button_and_caption {
@@ -32,9 +48,7 @@
 		justify-content: space-around;
 	}
 	.hire_p {
-		width: 50%;
+		width: 75%;
 	}
-	#hire_img {
-		margin: 0;
-	}
+
 }

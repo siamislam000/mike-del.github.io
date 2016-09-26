@@ -5,7 +5,7 @@
 	flex: 1;
 	flex-flow: row wrap;
 	justify-content: center;
-	margin: 0 0 15% 0;
+/*	margin: 0 0 15% 0;*/
 	/*height: 100%;*/
 }
 
@@ -23,7 +23,7 @@
 	}
 	.presentation-container  {
 		justify-content: center;
-		margin: 0 5% 10% 5%;
+/*		margin: 0 5% 10% 5%;*/
 	}
 	.presentation-intro-content-pt1 , 
 	.presentation-intro-content-pt2 {

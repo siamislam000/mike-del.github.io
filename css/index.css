@@ -1,0 +1,72 @@
+#index_body {
+    background: #000000;
+} 
+#index_bg1 {
+  background-image: url('../img/sky_Portland%20Summer%20Evening%20-%20By%20Stuart%20Seeger.png');
+}
+#index_bg2, #index_glass_bg2 {
+  background-image: url('../img/top20_div_Portland%20Summer%20Evening%20-%20By%20Stuart%20Seeger.png');
+}
+#index_bg3, #index_glass_bg3 {
+    background-image: url('../img/1920pxPortland_Oregon_waterfront_1898.png'); 
+}
+#index_bg4, .index_glass_bg4 {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#434343 , #000000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#434343 , #000000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#434343 , #000000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#434343 , #000000); /* Standard syntax */ 
+}
+#index_bg3_box1{
+    display: flex;
+    flex: 1;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 2.5vh;
+}
+#index_arrow_1 {
+    width: 24px;
+    height: 24px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+}
+#index_arrow_2 {
+    width: 4rem;
+    height: 4rem;
+    border-left: 5px solid #004812;
+    border-bottom: 5px solid #004812;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+}
+.index_animation_1 {
+    animation-duration: 3s;
+    animation-delay: .65s;
+}
+.col_flex_div div {
+    margin: 2% 0;
+}
+#arrow_2_padding {
+    margin-bottom: 5%;
+    margin-top: auto;
+}
+@media only screen and (min-width: 1150px) {
+    .col_flex_div div {
+    flex-grow: 1;
+    flex: 1;
+    flex-basis: 49%;
+    min-height: 25vh;
+    margin: 1%;
+    }
+
+    #index_bg3 {
+    height: 1017px;
+    max-height: 100vh;
+    }
+    #index_bg4{
+    min-height: 100vh;
+    }
+}
