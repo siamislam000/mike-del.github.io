@@ -1,0 +1,186 @@
+.sky_background , .active a {
+	background-image: url('../img/sky_portland.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: auto;
+    background-position: center top;   
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+#footer_table>tbody>tr>th {
+	border: none;
+	width: 33.333%;
+	text-align: center;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+.no_top_margin {
+	margin-top: 0;
+}
+
+.main_title {
+	font-size: 8vh;
+}
+
+.navbar-brand {
+	background-color: transparent;
+}
+
+.down_arrow {
+	max-height: 6vh;
+}
+
+.major_div {
+	min-height: 110vh;
+}
+
+#index_major_div1 {
+	background-image: url('../img/portland_summer.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center top;   
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	min-height: 91vh;
+	max-height: 98vh;
+}
+
+#index_major_div2 {
+	background: #ffd89b; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #ffd89b , #19547b); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #ffd89b , #19547b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding-top: 20px;
+}
+
+.products_and_services_img {
+	max-height: 30vh;
+	max-width: 10vh;
+}
+
+#index_major_div3 {
+	background-image: url('../img/wood.jpeg');
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: auto;
+    background-position: center top;   
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+#index_major_div4 {
+	background: #000000; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: #F0163A;
+	text-shadow: 2px 2px #000000;
+}
+
+
+
+#index_major_div_footer {
+	background: #000000; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: whitesmoke;
+	padding-top: 5%;
+}
+
+#full_portfolio_link {
+	margin: 2vh;
+	padding: 0;
+}
+
+.custom_nav {
+	margin-bottom: .005px;
+	border: 0;
+	border-radius: 0;
+        
+}
+
+.no_bottom_margin {
+	margin-bottom: 0;
+}
+
+.web_products_title {
+	margin-top: 40vh;
+	margin-bottom: 0;
+    color: whitesmoke;
+}
+
+.web_products_title a {
+    color: whitesmoke;
+}
+
+.title_pt2 {
+	display: none;
+}
+
+.thumb_bg_lt_white {
+	background-color: rgba(255, 255, 255, 0.15);
+	border: none;
+	margin-bottom: 35px;
+	-webkit-box-shadow: -8px 20px 78px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -8px 20px 78px -1px rgba(0,0,0,0.75);
+	box-shadow: -8px 20px 78px -1px rgba(0,0,0,0.75);
+}
+
+.thumb_bg_med_white {
+	background-color: rgba(255, 255, 255, 0.6);
+	border: none;
+	margin-bottom: 35px;
+	-webkit-box-shadow: -8px 20px 78px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -8px 20px 78px -1px rgba(0,0,0,0.75);
+	box-shadow: -8px 20px 78px -1px rgba(0,0,0,0.75);
+}
+
+#index_thumbnail4 {
+	background-color: rgba(255, 255, 255, 0.20);
+	border: none;
+}
+
+#index_thumbnail5 {
+	font-size: 2vh;
+	line-height: 3vh;
+	}
+
+@media (min-width: 485px) {
+	.web_products_title {
+		margin-top: 60vh;
+	}
+	.title_pt2 {
+		display: inline;
+	}
+}
+
+@media (min-width: 500px) {
+	#index_thumbnail5 {
+	font-size: 3vh;
+	line-height: 4vh;
+	}
+}
+
+@media (min-width: 615px) {
+	#index_thumbnail5 {
+	font-size: 3vh;
+	line-height: 5vh;
+	}
+}
+
+@media (min-width: 1800px) {
+	#index_thumbnail5 {
+	font-size: 2vh;
+	line-height: 4vh;
+	}
+}
