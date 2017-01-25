@@ -1,9 +1,0 @@
-#portfolio_body {
-    background-image: url('../img/portfolio_Mt._Helens,_Rainier,_Seen_from_Mount_Calvary_Cemetery_Portland,_Oregon.png');
-}
-
-@media only screen and (min-width: 926px) {
-    .portfolio_div_padding {
-        padding: 5%;
-    }
-}
