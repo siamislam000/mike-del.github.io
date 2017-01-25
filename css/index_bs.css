@@ -27,6 +27,14 @@
 	margin-top: 0;
 }
 
+.no_bottom_margin {
+	margin-bottom: 0;
+}
+
+.vh3_bottom_margin {
+	margin-bottom: 3vh;
+}
+
 .main_title {
 	font-size: 8vh;
 }
@@ -56,6 +64,7 @@
 	max-height: 98vh;
 }
 
+
 #index_major_div3 {
 	background-image: url('../img/wood.jpeg');
 	background-color: transparent;
@@ -65,6 +74,8 @@
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+	min-height: 90vh;
+	max-height: 97vh;
 }
 
 #index_major_div4 {
@@ -82,11 +93,11 @@
 	background: -webkit-linear-gradient(to top, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to top, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: whitesmoke;
-	padding-top: 5%;
+	padding-top: 1vh;
 }
 
 #full_portfolio_link {
-	margin: 2vh;
+	/*margin: 2vh;*/
 	padding: 0;
 }
 
@@ -95,10 +106,6 @@
 	border: 0;
 	border-radius: 0;
         
-}
-
-.no_bottom_margin {
-	margin-bottom: 0;
 }
 
 .web_products_title {
@@ -115,11 +122,47 @@
 	display: none;
 }
 
+.thumb_bg_med_white {
+	background-color: rgba(255, 255, 255, 0.6);
+	border: none;
+	margin-bottom: 35px;
+	-webkit-box-shadow: -8px 20px 78px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -8px 20px 78px -1px rgba(0,0,0,0.75);
+	box-shadow: -8px 20px 78px -1px rgba(0,0,0,0.75);
+}
+
+
+#index_thumbnail5 {
+	font-size: 2vh;
+	line-height: 3vh;
+	}
+
 @media (min-width: 485px) {
 	.web_products_title {
 		margin-top: 60vh;
 	}
 	.title_pt2 {
 		display: inline;
+	}
+}
+
+@media (min-width: 500px) {
+	#index_thumbnail5 {
+	font-size: 3vh;
+	line-height: 4vh;
+	}
+}
+
+@media (min-width: 615px) {
+	#index_thumbnail5 {
+	font-size: 3vh;
+	line-height: 5vh;
+	}
+}
+
+@media (min-width: 1800px) {
+	#index_thumbnail5 {
+	font-size: 2vh;
+	line-height: 4vh;
 	}
 }
