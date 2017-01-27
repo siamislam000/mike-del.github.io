@@ -93,7 +93,7 @@ p , th {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	min-height: 91vh;
+	/*min-height: 91vh;*/
 	max-height: 98vh;
 }
 
@@ -106,7 +106,7 @@ p , th {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	min-height: 90vh;
+	/*min-height: 90vh;*/
 	max-height: 97vh;
 }
 
