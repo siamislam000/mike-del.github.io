@@ -12,6 +12,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|PT+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
     <link rel="stylesheet" type="text/css" href="css/index_bs.css">
 
@@ -44,11 +45,12 @@
                     <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Demo <span class="caret"></span></a>
                     <ul class="dropdown-menu no_bottom_margin">
+                        <li class="text_align_cener">Comming Soon!</li>
                         <li><!-- <a href="#">Business CRM</a> --></li>
                         <li><!-- <a href="#">Social app</a> --></li>
                         <li><!-- <a href="#">Live display menu</a> --></li>
                         <li><!-- <a href="#">Weather app</a> --></li>
-                        <li role="separator" class="divider"></li>
+                        <!-- <li role="separator" class="divider"></li> -->
                         <li><!-- <a href="#">Code Repository</a> --></li>
                         <!-- <li role="separator" class="divider"></li>
                         <li><a href="#">One more separated link</a></li> -->
@@ -60,10 +62,11 @@
                     <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
                     <ul class="dropdown-menu no_bottom_margin">
+                        <li class="text_align_cener">Comming Soon!</li>
                         <li><!-- <a href="about.html">How to..? Pages</a> --></li>
                         <li><!-- <a href="articles.html">SEO Explained</a> --></li>
                         <!-- <li><a href="#">Trusted Links</a></li> -->
-                        <li role="separator" class="divider"></li>
+                        <!-- <li role="separator" class="divider"></li> -->
                         <li><!-- <a href="#">Trusted Links</a> --></li>
                     </ul>
                     </li>
@@ -75,15 +78,26 @@
     <div id="index_major_div1" class="container-fluid">
         <div class="row">
             <div class="main_title_div col-md-12 text-center">
-                <h1 class="main_title">ROSE CITY CREATIVITY</h1> 
+                <h1 class="main_title">ROSE CITY CODE &amp CREATIVITY</h1> 
                 <h3>
                     <span class="title_pt2">DESIGN &amp DEVELOPMENT</span>
                 </h3>
-                <h4>(Full site comming soon)</h4>
+                <h4 id="comming_soon_title">(Full site comming soon)</h4>
+                
+                <!-- START: Rotating Images -->
+                <div id="rotating-item-wrapper">
+                  <h4 class="rotating-title"> HTML / CSS </h4>
+                  <h4 class="rotating-title"> JavaScript </h4>
+                  <h4 class="rotating-title"> Python </h4>
+                  <h4 class="rotating-title"> Flask </h4>
+                  <h4 class="rotating-title"> Django </h4>
+                </div>
+                <!-- END: Rotating images images -->
+
                 <div class="web_products_title">
                     <a href='#index_major_div3'>
-                        <h1><span class='title_pt2'>Intuitively</span> Responsive Web Products</h1>
-                        <img class="down_arrow" src="img/down_arrow.svg">
+                        <h1 id="h1_title_pt2"><span class='title_pt2'>Intuitively</span> Responsive Web Products</h1>
+                        <img style="display:none" class="down_arrow" src="img/down_arrow.svg">
                     </a>
                 </div>
             </div>
@@ -96,7 +110,7 @@
                 <h1 class="main_title">About</h1>
                 <div id=index_thumbnail5 class='thumbnail index_thumbnail col-md-10 col-md-offset-1 thumb_bg_med_white'>
                     <div class='caption'>
-                        <p><strong>We create software based in cutting edge technologies and security focused methodologies. Purpose focused web designed to maximize user input with appropriately designed database structures. Data analytics at your command and to your specifications with beautiful and user interfaces (web based or local host). With a wide range of specialties and project frameworks, we design solutions aimed to exceeds your project goals and meet your timelines.</strong></p>
+                        <p id="index_about"><strong>We create software based in cutting edge technologies and security focused methodologies. Purpose focused web designed to maximize user input with appropriately designed database structures.<span id="index_about_extra"> Data analytics at your command and to your specifications with beautiful and user interfaces (web based or local host). With a wide range of specialties and project frameworks, we design solutions aimed to exceeds your project goals and meet your timelines.</span></strong></p>
                     </div>
                 </div>
             </div>
@@ -153,7 +167,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+    <script src="js/rotator.js" type="text/javascript"></script>
     <script src="js/index_bs.js" type="text/javascript"></script>
 </body>
 </html>
