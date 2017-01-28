@@ -263,12 +263,12 @@ p , th {
 @media  (orientation: landscape) {
     /* For mobile phones: */
 	#index_major_div1 {
-		min-height: 400px;
+		min-height: 350px;
 	}
 	#index_major_div3 {
-		min-height: 400px;
+		min-height: 350px;
 	}
 	.web_products_title {
-		margin-top: 100px;
+		margin-top: 75px;
 	}
 }
