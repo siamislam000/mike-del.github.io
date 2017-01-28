@@ -289,7 +289,7 @@ background: linear-gradient(to bottom, #E6DADA , #274046); /* W3C, IE 10+/ Edge,
 	}
 }
 
-@media  (orientation: landscape) {
+@media handheld and (orientation: landscape) {
     /* For mobile phones: */
 	#index_major_div1 {
 		min-height: 350px;
