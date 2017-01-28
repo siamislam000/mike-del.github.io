@@ -89,7 +89,7 @@ p , th {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	min-height: 462px;
+	min-height: 500px;
 }
 
 #index_major_div3 {
@@ -101,7 +101,7 @@ p , th {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	min-height: 462px;
+	min-height: 500px;
 }
 
 #index_major_div4 {
@@ -135,7 +135,7 @@ p , th {
 }
 
 .web_products_title {
-	margin-top: 25rem;
+	margin-top: 300px;
 	margin-bottom: 0;
     color: whitesmoke;
 }
@@ -166,11 +166,59 @@ p , th {
 	box-shadow: -8px 20px 78px -1px rgba(0,0,0,0.35);
 }
 
+@media only screen and (min-width: 360px) {
+    /* For mobile phones: */
+    #index_major_div1 , #index_major_div3 {
+		min-height: 550px;
+	}
+	.web_products_title {
+		margin-top: 350px;
+	}
+	#index_about {
+		font-size: 2.25rem;
+		line-height: 3rem;
+	}
+}
+
+@media only screen and (min-width: 400px) {
+    /* For mobile phones: */
+    #index_major_div1 , #index_major_div3 {
+		min-height: 650px;
+	}
+	.web_products_title {
+		margin-top: 450px;
+	}
+	#index_about {
+		font-size: 2.5rem;
+		line-height: 3.25rem;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+    /* For mobile phones: */
+    #index_major_div1 , #index_major_div3 {
+		min-height: 750px;
+	}
+	.web_products_title {
+		margin-top: 550px;
+	}
+	#index_about {
+		font-size: 2.75rem;
+		line-height: 3.5rem;
+	}
+}
+
 @media only screen and (min-width: 750px) {
     /* For mobile phones: */
     #index_about_extra {
     	display: inline;
     }
+    #index_major_div1 , #index_major_div3 {
+		min-height: 800px;
+	}
+	.web_products_title {
+		margin-top: 600px;
+	}
 }
 
 @media only screen and (min-width: 772px) {
@@ -184,6 +232,12 @@ p , th {
     /* For mobile phones: */
 	.main_title {
 	font-size: 5rem;
+	}
+	#index_major_div1 , #index_major_div3 {
+		min-height: 850px;
+	}
+	.web_products_title {
+		margin-top: 650px;
 	}
 }
 
