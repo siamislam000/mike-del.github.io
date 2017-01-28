@@ -133,7 +133,7 @@ p , th {
 }
 
 .web_products_title {
-	margin-top: 275px;
+	margin-top: 300px;
 	margin-bottom: 0;
     color: whitesmoke;
 }
@@ -167,13 +167,13 @@ p , th {
 @media only screen and (min-width: 360px) {
     /* For mobile phones: */
     #index_major_div1 {
-		min-height: 500px;
+		min-height: 475px;
 	}
 	#index_major_div3 {
 		min-height: 550px;
 	}
 	.web_products_title {
-		margin-top: 325px;
+		margin-top: 350px;
 	}
 	#index_about {
 		font-size: 2.25rem;
@@ -187,7 +187,7 @@ p , th {
 		min-height: 600px;
 	}
 	.web_products_title {
-		margin-top: 425px;
+		margin-top: 450px;
 	}
 	#index_about {
 		font-size: 2.5rem;
@@ -201,7 +201,7 @@ p , th {
 		min-height: 700px;
 	}
 	.web_products_title {
-		margin-top: 525px;
+		margin-top: 550px;
 	}
 	#index_about {
 		font-size: 2.75rem;
@@ -218,7 +218,7 @@ p , th {
 		min-height: 750px;
 	}
 	.web_products_title {
-		margin-top: 575px;
+		margin-top: 600px;
 	}
 }
 
