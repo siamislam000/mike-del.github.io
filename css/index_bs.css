@@ -92,6 +92,35 @@ p , th {
 	min-height: 450px;
 }
 
+#index_major_div2 {
+
+background: #E6DADA; /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #E6DADA , #274046); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #E6DADA , #274046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+            
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center top;   
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	min-height: 450px;
+}
+
+.index_thumbnail {background: #E6DADA; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #E6DADA , #274046); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #E6DADA , #274046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+	-webkit-box-shadow: -8px 20px 78px -1px rgba(0,0,0,0.35);
+	-moz-box-shadow: -8px 20px 78px -1px rgba(0,0,0,0.35);
+	box-shadow: -8px 20px 78px -1px rgba(0,0,0,0.35);
+	border: none;
+}
+
+.caption h4 {
+	line-height: 1.75;
+}
+
 #index_major_div3 {
 	background-image: url('../img/wood.jpeg');
 	background-color: transparent;
