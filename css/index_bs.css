@@ -89,7 +89,7 @@ p , th {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	min-height: 500px;
+	min-height: 450px;
 }
 
 #index_major_div3 {
@@ -101,7 +101,7 @@ p , th {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	min-height: 500px;
+	min-height: 450px;
 }
 
 #index_major_div4 {
@@ -111,8 +111,6 @@ p , th {
 	color: #F0163A;
 	text-shadow: 2px 2px #000000;
 }
-
-
 
 #index_major_div_footer {
 	background: #000000; /* fallback for old browsers */
@@ -168,7 +166,10 @@ p , th {
 
 @media only screen and (min-width: 360px) {
     /* For mobile phones: */
-    #index_major_div1 , #index_major_div3 {
+    #index_major_div1 {
+		min-height: 500px;
+	}
+	#index_major_div3 {
 		min-height: 550px;
 	}
 	.web_products_title {
@@ -183,7 +184,7 @@ p , th {
 @media only screen and (min-width: 400px) {
     /* For mobile phones: */
     #index_major_div1 , #index_major_div3 {
-		min-height: 650px;
+		min-height: 600px;
 	}
 	.web_products_title {
 		margin-top: 450px;
@@ -197,7 +198,7 @@ p , th {
 @media only screen and (min-width: 600px) {
     /* For mobile phones: */
     #index_major_div1 , #index_major_div3 {
-		min-height: 750px;
+		min-height: 700px;
 	}
 	.web_products_title {
 		margin-top: 550px;
@@ -214,7 +215,7 @@ p , th {
     	display: inline;
     }
     #index_major_div1 , #index_major_div3 {
-		min-height: 800px;
+		min-height: 750px;
 	}
 	.web_products_title {
 		margin-top: 600px;
@@ -234,7 +235,7 @@ p , th {
 	font-size: 5rem;
 	}
 	#index_major_div1 , #index_major_div3 {
-		min-height: 850px;
+		min-height: 800px;
 	}
 	.web_products_title {
 		margin-top: 650px;
