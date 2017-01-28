@@ -164,6 +164,8 @@ p , th {
 	box-shadow: -8px 20px 78px -1px rgba(0,0,0,0.35);
 }
 
+
+
 @media only screen and (min-width: 360px) {
     /* For mobile phones: */
     /*#index_major_div1 {
@@ -255,5 +257,18 @@ p , th {
 	}
 	.main_title {
 	font-size: 6rem;
+	}
+}
+
+@media  (orientation: landscape) {
+    /* For mobile phones: */
+	#index_major_div1 {
+		min-height: 400px;
+	}
+	#index_major_div3 {
+		min-height: 400px;
+	}
+	.web_products_title {
+		margin-top: 100px;
 	}
 }
