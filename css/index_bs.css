@@ -166,9 +166,9 @@ p , th {
 
 @media only screen and (min-width: 360px) {
     /* For mobile phones: */
-    #index_major_div1 {
+    /*#index_major_div1 {
 		min-height: 475px;
-	}
+	}*/
 	#index_major_div3 {
 		min-height: 550px;
 	}
