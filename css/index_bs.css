@@ -80,10 +80,6 @@ p , th {
 	max-height: 6rem;
 }
 
-.major_div {
-	min-height: 110vh;
-}
-
 #index_major_div1 {
 	background-image: url('../img/portland_summer.png');
 	background-color: transparent;
@@ -93,8 +89,7 @@ p , th {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	min-height: 91vh;
-	max-height: 98vh;
+	min-height: 462px;
 }
 
 #index_major_div3 {
@@ -106,8 +101,7 @@ p , th {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	min-height: 90vh;
-	max-height: 97vh;
+	min-height: 462px;
 }
 
 #index_major_div4 {
