@@ -193,8 +193,6 @@ background: linear-gradient(to bottom, #E6DADA , #274046); /* W3C, IE 10+/ Edge,
 	box-shadow: -8px 20px 78px -1px rgba(0,0,0,0.35);
 }
 
-
-
 @media only screen and (min-width: 360px) {
     /* For mobile phones: */
     /*#index_major_div1 {
@@ -218,7 +216,7 @@ background: linear-gradient(to bottom, #E6DADA , #274046); /* W3C, IE 10+/ Edge,
 		min-height: 600px;
 	}
 	.web_products_title {
-		margin-top: 450px;
+		margin-top: 300px;
 	}
 	#index_about {
 		font-size: 2.5rem;
@@ -232,7 +230,7 @@ background: linear-gradient(to bottom, #E6DADA , #274046); /* W3C, IE 10+/ Edge,
 		min-height: 700px;
 	}
 	.web_products_title {
-		margin-top: 550px;
+		margin-top: 400px;
 	}
 	#index_about {
 		font-size: 2.75rem;
@@ -249,7 +247,7 @@ background: linear-gradient(to bottom, #E6DADA , #274046); /* W3C, IE 10+/ Edge,
 		min-height: 750px;
 	}
 	.web_products_title {
-		margin-top: 600px;
+		margin-top: 450px;
 	}
 }
 
@@ -269,7 +267,7 @@ background: linear-gradient(to bottom, #E6DADA , #274046); /* W3C, IE 10+/ Edge,
 		min-height: 800px;
 	}
 	.web_products_title {
-		margin-top: 650px;
+		margin-top: 500px;
 	}
 }
 
@@ -290,9 +288,9 @@ background: linear-gradient(to bottom, #E6DADA , #274046); /* W3C, IE 10+/ Edge,
 }
 
 @media only screen 
-  and (min-device-width: 414px) 
+  and (min-device-width: 315px) 
   and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     /* For mobile phones: */
 	#index_major_div1 {
@@ -303,5 +301,9 @@ background: linear-gradient(to bottom, #E6DADA , #274046); /* W3C, IE 10+/ Edge,
 	}
 	.web_products_title {
 		margin-top: 75px;
+	}
+	.products_and_services_img {
+		max-width: 260px;
+		max-height: 185px;
 	}
 }
