@@ -1,10 +1,14 @@
-h1 , h2 , h3 , h4 , a {
-	font-family: 'Oswald', sans-serif;
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/*h1 , h2 , h3 , h4 , a {
+	font-family: 'Indie Flower', cursive;
 }
 
 p , th {
-	font-family: 'PT Sans', sans-serif;
-}
+	font-family: 'Josefin Sans', sans-serif;
+}*/
 
 .sky_background , .active a {
 	background-image: url('../img/sky_portland.png');
@@ -156,7 +160,7 @@ background: linear-gradient(to bottom, #E6DADA , #274046); /* W3C, IE 10+/ Edge,
 }
 
 #full_portfolio_link {
-	/*margin: 2vh;*/
+	margin: 2vh;
 	padding: 0;
 }
 
