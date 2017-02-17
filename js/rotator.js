@@ -17,13 +17,13 @@ $(window).load(function() {	//start after HTML, images have loaded
 		init: function()
 		{
 			//initial fade-in time (in milliseconds)
-			var initialFadeIn = 1000;
+			var initialFadeIn = 900;
 			
 			//interval between items (in milliseconds)
-			var itemInterval = 5000;
+			var itemInterval = 3000;
 			
 			//cross-fade time (in milliseconds)
-			var fadeTime = 2500;
+			var fadeTime = 1500;
 			
 			//count number of items
 			var numberOfItems = $('.rotating-title').length;
