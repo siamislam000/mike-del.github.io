@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
+    <link rel="stylesheet" href="css/badges.css">
     <link rel="stylesheet" type="text/css" href="css/index_bs.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -162,7 +163,16 @@
             </div>
         </div>
     </div>
-
+    <div id="index_major_div4" class="container-fluid">
+        <div class="row">
+            <div class="span12">
+                <div class="well clearfix ">
+                    <h1>Treehouse</h1>
+                    <div class="report-card treehouse"></div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="index_major_div4" class="container-fluid">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -216,6 +226,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/email_contact_button.js" type="text/javascript"></script>
     <script src="js/rotator.js" type="text/javascript"></script>
+    <script src="js/reportcard.js"></script>
+    <script>
+        $('.report-card.treehouse').reportCard({
+            userName: 'michaeldelgado3',
+            site: 'treehouse',
+            badgesAmount: 7,
+            tooltips: true
+        });
+    </script>
     <script src="js/index_bs.js" type="text/javascript"></script>
 </body>
 </html>
