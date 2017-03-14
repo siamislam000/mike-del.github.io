@@ -1,0 +1,15 @@
+-Badges: Create a new div for the badges (possibly with ajax) (test with smaller badges div) or keep it in div 4 and remove the text shawdow for the badges
+    -target: first major div 4
+    -possible solution: create unique div and add all adjustments here (for badges).
+        -Change name of dive to a name that refers to badges
+            >test without id
+            	>no major issues
+	--Added: #index_treehouse_badges , .treehouse_badges
+        -Create css rules and add to badges css
+
+
+-Badges: either remove bottom margin or add one to the top
+	-target: .well
+	-style-doc: from bootstrap
+	-margin-bottom: 20px 
+	-possible solution: reaffirm and add margin in a style sheet (either index.css or create a new one for badges (possibly create a headed/footer layout html/css))
