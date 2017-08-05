@@ -27,17 +27,17 @@ p , th {
 	text-align: center;
 }
 
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+/*.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: transparent;
-}
+}*/
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+/*.navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: transparent;
-}
+}*/
 
-.text_align_cener {
+/*.text_align_cener {
 	text-align: center;
-}
+}*/
 
 .no_top_margin {
 	margin-top: 0;
