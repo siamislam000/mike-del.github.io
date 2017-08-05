@@ -1,0 +1,173 @@
+body {
+  /*this is the light gray square background image, repeated in the BG*/
+  background-image: url("../images/absurdidad.png");
+  background-repeat: repeat-y repeat-x;
+  font-size: 16px;
+  max-width: 1880px;
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+#index_header_div {
+  background:
+    linear-gradient(
+    rgba(255, 0, 0, 0.10), 
+    rgba(255, 0, 0, 0.10)
+    ), 
+    url("../images/crater_lake.jpg");
+  background-size: 450%;
+  background-repeat: no-repeat;
+  border-radius: 0;
+  padding-top: 8%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  height: 65vh;
+}
+
+#index_header_h1 {
+  color: white;
+  padding-top: 50%;
+}
+
+#index_header_p1 {
+  color: white;
+  margin: 0 0 0 0;
+}
+
+#index_header_button {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#index_first_section {
+  background-color: #fff;
+}
+
+#index_first_section_title_div {
+  margin-top: 5%;
+}
+
+.card {
+  max-width: 898px;
+}
+
+.card-text {
+  display: none;
+}
+
+/*#index_second_card_block {
+  padding-bottom: 0;
+  margin-bottom: 5%;
+}
+
+#index_services_more {
+  margin-top: 5%;
+}*/
+
+#website_icon ,
+#database_icon {
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#database_icon {
+  padding-top: 10%;
+}
+
+#index_footer_section {
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+
+
+@media (max-width: 415px) {
+  #index_header_p1 {
+    padding-bottom: 10%;
+  }  
+  #index_header_button {
+    display: none;
+  }
+}
+
+@media (min-width: 325px) {
+  #index_header_div {
+    background-size: 325%;
+  }
+}
+
+@media (max-width: 335px) {
+  #index_header_p1 {
+    padding-bottom: 5%;
+  }
+}
+
+@media (max-width: 300px) {
+  #index_header_h1 {
+  margin-bottom: 0;
+  padding-bottom: 5%;
+  }
+
+  #index_header_p1 {
+  display: none;
+  }
+}
+
+@media (max-width: 250px) {
+  #index_header_p1 {
+  display: none;
+  }
+}
+
+@media (max-width: 225px) {
+body {
+  min-width: 225px;
+  }
+}
+
+@media (min-width: 300px) {
+  .card-text {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 335px) {
+  #index_header_h1 {
+    padding-top: 50%;
+  }
+}
+
+@media (min-width: 505px) {
+  #index_header_div {
+    background-size: 200%;
+  }
+  #index_header_h1 {
+    padding-top: 25%;
+  }
+}
+
+@media (min-width: 845px) {
+  #index_header_div {
+    background-size: 115%;
+  }
+  #index_header_h1 {
+    padding-top: 10%;
+  }
+}
+
+@media (min-width: 1365px) {
+  #index_header_div {
+    background-size: 100%;
+  }
+}
+
+
+
+
+
+
+
