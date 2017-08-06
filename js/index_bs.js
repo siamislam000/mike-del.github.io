@@ -6,8 +6,8 @@
 
 
 // Show with animation the Products directional title and arrow at the bottom of the first div
-$('.web_products_title').hide().show().slideUp( 100 ).delay( 1000 ).fadeIn( 2000 );
-$('.down_arrow').hide().show().slideUp( 100 ).delay( 1000 ).fadeIn( 2000 );
+// $('.web_products_title').hide().show().slideUp( 100 ).delay( 1000 ).fadeIn( 2000 );
+// $('.down_arrow').hide().show().slideUp( 100 ).delay( 1000 ).fadeIn( 2000 );
 
 // I do not believe that this is being used right now
 $(document).ready(function(){
@@ -26,7 +26,7 @@ $(document).ready(function(){
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 4500, function(){
+      }, 750, function(){
    
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
