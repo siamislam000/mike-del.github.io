@@ -15,7 +15,7 @@
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Oxygen:400,700" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
         <link rel="stylesheet" type="text/css" href="css/index_bs.css">
 
@@ -26,18 +26,15 @@
         <section>
         <!-- <nav class="navbar navbar-default custom_nav sky_background"> -->
         <nav class="navbar fixed-top navbar-toggleable-md navbar-light bg-clear sky_background">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> -->
           </button>
-          <a class="navbar-brand" href="#">M.Delgado</a>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <a id="nav_brand" class="navbar-brand" href="#">M.Delgado</a>
+          <!-- <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown link
+                <a id="nav_demo" class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Demo
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <a class="dropdown-item" href="#">Action</a>
@@ -46,7 +43,7 @@
                 </div>
               </li>
             </ul>
-          </div>
+          </div> -->
         </nav>
         </section>
 
@@ -54,21 +51,23 @@
         <div id="index_major_div1" class="container-fluid">
             <div class="row">
                 <div class="main_title_div col-md-12 text-center pt-5">
-                    <h1 class="display-4 pt-5">ROSE CITY CODE</h1> 
+                    <h1 id="website_title" class="display-4 pt-5">ROSE CITY CODE</h1> 
                     
                     <!-- START: Rotating Images -->
                     <div id="rotating-item-wrapper">
-                      <p class="rotating-title"> HTML / CSS </p>
-                      <p class="rotating-title"> JavaScript </p>
-                      <p class="rotating-title"> Python </p>
-                      <p class="rotating-title"> Flask </p>
-                      <p class="rotating-title"> Django </p>
+                      <h5 class="rotating-title"> HTML / CSS </h5>
+                      <h5 class="rotating-title"> JavaScript </h5>
+                      <h5 class="rotating-title"> Python </h5>
+                      <h5 class="rotating-title"> Flask </h5>
+                      <h5 class="rotating-title"> Django </h5>
+                      <h5 class="rotating-title"> Postgresql </h5>
+                      <h5 class="rotating-title"> Apache </h5>
                     </div>
                     <!-- END: Rotating images images -->
 
                     <div class="web_products_title whitesmoke">
                         <a class="whitesmoke" href='#index_major_div2'>
-                            <h1 id="h1_title_pt2"><span class='title_pt2'>Intuitively</span> Responsive Web Products</h1>
+                            <h2 id="h1_title_pt2"><span class='title_pt2'>Intuitively</span> Responsive Web Products</h2>
                             <img class="down_arrow" src="img/down_arrow.svg">
                         </a>
                     </div>
@@ -80,11 +79,11 @@
         <section>
         <div id="index_major_div2" class="container-fluid pb-2">
 
-            <h1 id="products_and_services_main_title" class="display-4 text-center pt-5"> Products & Services </h1>
+            <h1 id="products_and_services_main_title" class="display-4 text-center py-5"> Products & Services</h1>
             <div id="index_card1" class="card index_card_background col-md-6 offset-md-2 mb-4 thumb_bg_lt_white">
                 <img class="card-img-top mx-auto mt-3 products_and_services_img" src="img/Responsive_Web_Design_Demo_Template.svg.png" alt="Card image cap" >
                 <div class="card-block">
-                    <h3 class="card-text products_and_services_title">Custom Professional Websites</h3>
+                    <h3 class="card-text products_and_services_title">Secure Websites , Databases & Servers</h3>
                     <h5 class="card-text">Own your web presence and truly reap the rewards of data analytics.  We deliver expertly structured web applications designed to maximize user interaction and data collection. The design is led by your vision and the spirit of your project goal.</h5>
                 </div>
             </div>
@@ -99,7 +98,7 @@
                 <img class="card-img-top mx-auto mt-3 products_and_services_img" src="img/caution-1295260_640.png" alt="Card image cap" >
                 <div class="card-block">
                     <h3 class="card-text">Information Technology Management Consulting</h3>
-                    <h5 class="card-text">Information technology and support departments are integral to a company’s survival and growth. We have years of experience in consulting the structural creation and management of I.T. and support departments. We provide full documentation, training materials including video tutorials and initial management oversight.</h5>
+                    <h5 class="card-text">Information technology and support departments are integral to a company’s survival and growth. We have years of experience in consulting on the structural creation and management of I.T. and support departments. We provide full documentation, training materials including video tutorials and initial management oversight.</h5>
                 </div>
             </div>
             <div id="index_card4" class="card index_card_background col-md-6 offset-md-4 mb-4 thumb_bg_lt_white">
@@ -116,7 +115,7 @@
             <div id="index_major_div3" class="container-fluid mx-0 px-md-5 py-md-5">
                 <div class="row">
                     <div class="col-md-12 text-center px-0 py-4 px-md-5">
-                        <h1><big> Software based in cutting edge technologies and security focused methodologies</big></h1>
+                        <h2><big> Software based in cutting edge technologies and security focused methodologies</big></h2>
                     </div>
                 </div>
             </div>
@@ -124,24 +123,24 @@
 
         <div id="index_major_div4" class="container-fluid">
             <div class="row">
+                <!-- <div class="col-md-12 text-center">
+                    <h2 id="full_portfolio_link" class="my-4 ">Full Portfolio</h2>
+                </div> -->
                 <div class="col-md-12 text-center">
-                    <h1 id="full_portfolio_link" class="my-4 ">Full Portfolio</h1>
-                </div>
-                <div class="col-md-12 text-center">
-                    <a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-github"><i class="fa fa-github"></i></a>
-                    <a class="btn btn-social-icon btn-google-plus"><i class="fa fa-google-plus"></i></a>
+                    <!-- <a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a> -->
+                    <a class="btn btn-social-icon btn-github" href="https://github.com/mike-del"><i class="fa fa-github whitesmoke"></i></a>
+                    <!-- <a class="btn btn-social-icon btn-google-plus"><i class="fa fa-google-plus"></i></a>
                     <a class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram"></i></a>
                     <a class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></a>
                     <a class="btn btn-social-icon btn-pinterest"><i class="fa fa-pinterest"></i></a>
                     <a class="btn btn-social-icon btn-tumblr"><i class="fa fa-tumblr"></i></a>
-                    <a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a> -->
                 </div>
             </div>
         </div>
 
         <div id="index_major_div_footer" class="container-fluid">
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-md-12 text-center">
                     <table id="footer_table" class="table table-condensed">
                         <tr>
@@ -161,7 +160,7 @@
                         </tr>
                     </table>
                 </div>
-            </div>
+            </div> -->
             <p id="footer_copyright" class="text-center my-0">&copy;2017 Michael Delgado / Rose City Code. All Rights Reserved</p>
         </div>
 
