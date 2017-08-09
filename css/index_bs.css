@@ -24,7 +24,7 @@ h1 , h2 , h3 {
 }
 
 .sky_background  {
-	background-color: whitesmoke;
+	background-color: #FFFFFF;
 }
 
 #footer_table>tbody>tr>th {
@@ -60,8 +60,8 @@ h1 , h2 , h3 {
 
 #index_major_div2 {
 	background: #E6DADA; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to top, #E6DADA , #274046); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to top, #E6DADA , #274046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(to top, #E6DADA , whitesmoke); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #E6DADA , whitesmoke); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .index_card_background {background: #E6DADA; /* fallback for old browsers */
